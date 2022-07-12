@@ -416,7 +416,7 @@ private:
   ///@{
 
   static Logger* s_Logger;
-  static std::map<std::string, Logger*>& getSLoggers();
+  static std::map<std::string, Logger*> s_loggers;
 
   ///@}
 
